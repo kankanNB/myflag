@@ -1,5 +1,6 @@
 package maigi
 
+
 import (
 	"bufio"
 	"flag"
