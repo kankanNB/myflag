@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:                                            
       - uses: actions/checkout@v1
-      - uses: yesolutions/mirror-action@v0.5.1
+      - uses: kankanNB/mirror-action@master
         with:
           REMOTE: '${{ secrets.GITLAB }}/cicd/myflag.git'
           GIT_USERNAME: root
