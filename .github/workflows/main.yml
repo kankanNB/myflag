@@ -13,5 +13,5 @@ jobs:
       - uses: yesolutions/mirror-action@v0.5.1
         with:
           REMOTE: '${{ secrets.GITLAB }}/cicd/myflag.git'
-          GIT_USERNAME: root
+          GIT_USERNAME: administrator
           GIT_PASSWORD: ${{ secrets.PASSWORD }}
